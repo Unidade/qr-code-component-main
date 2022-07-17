@@ -31,7 +31,7 @@ I created a component striving to be most close possibly to the requested design
 ### Built with
 
 - Semantic HTML5 markup
-- CSS
+- SASS
 
 ### What I learned
 
