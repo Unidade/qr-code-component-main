@@ -334,9 +334,6 @@ body {
   padding-bottom: 0;
   width: 30rem;
   border-radius: 2rem;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
   margin-bottom: 1rem;
 }
 .block__image {
