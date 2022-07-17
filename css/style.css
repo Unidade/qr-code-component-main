@@ -320,16 +320,16 @@ html {
 
 body {
   text-align: center;
-  background-color: #d5e1ef;
+  background-color: hsl(212deg, 45%, 89%);
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 .block {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
   padding: 1rem;
   padding-bottom: 0;
   width: 32rem;
@@ -341,29 +341,23 @@ body {
   border-radius: 1rem;
 }
 .block__heading {
-  color: #32394d;
-  font-size: 1.6rem;
+  color: hsl(218deg, 44%, 22%);
+  font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  margin: 0;
 }
 .block__text {
+  font-size: 1.5rem;
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1.5px;
-  color: #7a7e88;
+  color: hsl(220deg, 15%, 55%);
 }
 
 .text-container {
-  padding: 10px;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
+  padding: 20px;
+  padding-bottom: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,10 @@
 @use "../node_modules/normalize.css/normalize";
 
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(212, 45%, 89%);
+$Grayish-blue: hsl(220, 15%, 55%);
+$Dark-blue: hsl(218, 44%, 22%);
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -12,17 +17,17 @@ html {
 
 body {
   text-align: center;
-  background-color: #d5e1ef;
+  background-color: $Light-gray;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 // * COMPONENT
 .block {
-  background-color: white;
+  background-color: $White;
   padding: 1rem;
   padding-bottom: 0;
   width: 32rem;
@@ -34,28 +39,22 @@ body {
     // margin-bottom: 0.5rem;
   }
   &__heading {
-    color: #32394d;
-    font-size: 1.6rem;
+    color: $Dark-blue;
+    font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
+    margin: 0;
   }
   &__text {
+    font-size: 1.5rem;
     font-size: 1.2rem;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 1.5px;
-    color: #7a7e88;
+    color: $Grayish-blue;
   }
 }
 
 .text-container {
-  padding: 10px;
-}
-
-// * Attribution
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  padding: 20px;
+  padding-bottom: 25px;
 }
