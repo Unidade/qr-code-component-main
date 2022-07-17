@@ -28,9 +28,9 @@ body {
 // * COMPONENT
 .block {
   background-color: $White;
-  padding: 1rem;
+  padding: 2rem;
   padding-bottom: 0;
-  width: 32rem;
+  width: 37.5rem;
   border-radius: 2rem;
   margin-bottom: 1rem;
   &__image {
@@ -47,7 +47,6 @@ body {
   }
   &__text {
     font-size: 1.5rem;
-    font-size: 1.2rem;
     font-weight: 400;
     letter-spacing: 1.5px;
     color: $Grayish-blue;
@@ -55,6 +54,6 @@ body {
 }
 
 .text-container {
-  padding: 20px;
+  padding: 25px;
   padding-bottom: 25px;
 }

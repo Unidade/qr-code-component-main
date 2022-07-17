@@ -330,9 +330,9 @@ body {
 
 .block {
   background-color: hsl(0deg, 0%, 100%);
-  padding: 1rem;
+  padding: 2rem;
   padding-bottom: 0;
-  width: 32rem;
+  width: 37.5rem;
   border-radius: 2rem;
   margin-bottom: 1rem;
 }
@@ -349,14 +349,13 @@ body {
 }
 .block__text {
   font-size: 1.5rem;
-  font-size: 1.2rem;
   font-weight: 400;
   letter-spacing: 1.5px;
   color: hsl(220deg, 15%, 55%);
 }
 
 .text-container {
-  padding: 20px;
+  padding: 25px;
   padding-bottom: 25px;
 }
 
