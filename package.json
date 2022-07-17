@@ -2,4 +2,8 @@
   "dependencies": {
     "normalize.css": "^8.0.1"
   }
+  ,
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w"  
+  }
 }

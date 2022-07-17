@@ -332,14 +332,13 @@ body {
   background-color: white;
   padding: 1rem;
   padding-bottom: 0;
-  width: 30rem;
+  width: 32rem;
   border-radius: 2rem;
   margin-bottom: 1rem;
 }
 .block__image {
   max-width: 100%;
   border-radius: 1rem;
-  margin-bottom: 0.5rem;
 }
 .block__heading {
   font-size: 1.6rem;
