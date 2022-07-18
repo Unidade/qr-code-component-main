@@ -43,15 +43,14 @@ body {
   align-items: center;
 
   text-align: center;
-  box-shadow: none;
   background-color: $White;
   padding: 1.5rem;
   max-width: 32rem;
   border-radius: 2rem;
+  box-shadow: 0 2px 5px -2px rgba(black, $alpha: 0.8);
   &__image {
     max-width: 100%;
     border-radius: 1rem;
-    // margin-bottom: 0.5rem;
   }
   &__heading {
     color: $Dark-blue;
